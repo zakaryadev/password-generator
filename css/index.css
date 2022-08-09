@@ -38,10 +38,11 @@ body {
 }
 
 .copy {
+  padding: 10px;
   cursor: pointer;
   position: absolute;
-  top: 90px;
-  right: 65px;
+  top: 80px;
+  right: 55px;
 }
 
 .generate-pass input::placeholder {
