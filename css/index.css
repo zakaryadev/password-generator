@@ -1,0 +1,118 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(90vh);
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  background-size: cover;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/002/469/851/original/blue-empty-gradient-background-free-video.jpg");
+}
+
+#app {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 80px 50px;
+  background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(42px);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 20px 20px rgb(0 0 0 / 6%);
+}
+
+.generate-pass input {
+  position: relative;
+  width: 280px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: transparent;
+  padding: 10px 40px;
+  border-radius: 120px;
+  outline: none;
+  color: #fff;
+}
+
+.copy svg {
+  height: 15px;
+  color: #fff;
+}
+
+.copy {
+  cursor: pointer;
+  position: absolute;
+  top: 90px;
+  right: 65px;
+}
+
+.generate-pass input::placeholder {
+  color: rgba(255, 255, 255, 0.384);
+}
+
+.inputs {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs label {
+  padding: 10px 0;
+}
+
+.input-gr {
+  padding: 10px 0;
+}
+
+.slider-container {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#uppercase, #numbers, #symbols {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.form-range {
+  width: 90%;
+}
+
+.form-range::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 0.5rem;
+  color: transparent;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.form-range::-webkit-slider-thumb {
+  background-color: white;
+  outline: none;
+}
+
+.form-range:focus::-webkit-slider-thumb {
+  box-shadow: none;
+}
+
+.form-range::-webkit-slider-thumb:active {
+  background-color: white;
+}
+
+.form-check-input:focus {
+  border-color: none;
+  box-shadow: none;
+}
+
+.button {
+  padding: 10px 60px;
+  border-radius: 40px;
+  border: none;
+  color: #fff;
+  background: rgba(32, 32, 32, 0.212);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
