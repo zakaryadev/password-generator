@@ -11,6 +11,7 @@
 </head>
 <body>
 <div id="app">
+    <!-- Password Input -->
     <div class="generate-pass">
         <input class="input" type="text" placeholder="Tx38$@##YA$(*Q@" />
         <span class="copy" >
@@ -20,7 +21,9 @@
           </svg>
         </span>
     </div>
+    <!-- /Password Input -->
     <div class="inputs">
+        <!-- Checkboxes -->
         <label for="uppercase" data-js-selector="checkbox">
             <input class="form-check-input" type="checkbox" id="uppercase" />
             Uppercase
@@ -33,14 +36,18 @@
             <input class="form-check-input" type="checkbox" id="symbols" />
             Symbols
         </label>
+        <!-- Checkboxes -->
+        <!-- Slider/Range Password Characters Length -->
         <div class="input-gr">
             <div class="slider-container">
                 <input type="range" class="form-range slider" min="4" max="32" step="1" value="4">
                 <label class="form-range-label value" for="form-control">4</label>
             </div>
         </div>
+        <!-- Slider/Range Password Characters Length -->
         <button class="button">Generate Password</button>
     </div>
+    
 </div>
 <script src="/js/index.js"></script>
 </body>
