@@ -11,7 +11,7 @@ body {
 
 #app {
   border: 1px solid rgba(255, 255, 255, 0.4);
-  padding: 80px 50px;
+  padding: 60px 30px 50px 30px;
   background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
   box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
   backdrop-filter: blur(42px);
@@ -27,7 +27,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.4);
   background: transparent;
   padding: 10px 40px;
-  border-radius: 120px;
+  border-radius: 125px;
   outline: none;
   color: #fff;
 }
@@ -38,11 +38,11 @@ body {
 }
 
 .copy {
-  padding: 10px;
+  padding: 10px 20px;
   cursor: pointer;
   position: absolute;
-  top: 80px;
-  right: 55px;
+  top: 60px;
+  right: 30px;
 }
 
 .generate-pass input::placeholder {
@@ -116,4 +116,10 @@ body {
   color: #fff;
   background: rgba(32, 32, 32, 0.212);
   border: 1px solid rgba(255, 255, 255, 0.4);
+  transition: all 0.3s ease-in-out;
+}
+
+.button:active {
+  color: rgba(32, 32, 32, 0.699);
+  background-color: rgba(255, 255, 255, 0.37);
 }
